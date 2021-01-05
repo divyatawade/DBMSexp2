@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Database Engineering Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="index.js"></script>
+
+</head>
+
+<body style="background-color: honeydew;">
+    <header class="modal-title" style="font-family: 'Times New Roman'; background-color: rgb(96, 245, 238);font-size: 5px;text-align: center;">
+        <h3>Experiment No: 2</h3>
+        <div>
+            <h2><strong>Converting ER model to a Relational Schema</strong></h2>
+            <a href="http://dia-installer.de/" style="font-size: 15px;">
+                Download Dia
+            </a>
+        </div>
+    </header>
+
+    <div>
+        <div class="container " style="margin-top: 10px;">
+            <button type="button" class="col-md-2 col-sm-12 btn btn-success left" id="playBtn">
+                <b>Play</b></button>
+
+            <button type="button" class="col-md-2  btn btn-success left" id="nextBtn" style="display: none;">
+                 <b>Next</b></button>
+
+            <button type="button" class="col-md-2  btn btn-success left" id="prevBtn" style="background-color: blue;">
+                    <b>Prev</b></button>
+
+            <div class="col-md-5 col-sm-12"></div>
+
+            <button type="button" class="col-md-2  btn btn-danger right" id="resetBtn">
+                 <b>Reset</b></button>
+        </div>
+
+        <h3>
+            <div id="title" class="text-center" style="background-color: rgb(11, 75, 75); color: azure; font-size:30;">Entity</div>
+        </h3>
+        <div id="imgSection" class="left" style="position: absolute;margin-top: 100;width: 50%;height: 500px;padding-top: 20px;left: 0;background-color: lightgrey; ">
+            <img src="images/1.png" class="col-sm-12 img-responsive " id="image" style="height: 450px;"> &emsp;
+            <div id="leftinfo"> </div>
+        </div>
+
+        <div id="explanation" class="right" style="font-family: 'Times New Roman', Times, serif;font-size: large; position: absolute; margin-top: 100;width: 50%;height: 500px;padding-top: 20px;padding-left:25px;padding-right:25px;right: 0;background-color: lightgrey;">
+
+            <strong>ER Diagram </strong>stands for Entity Relationship Diagram, also known as ERD is a diagram that displays the relationship of entity sets stored in a database. <br>In other words, ER diagrams help to explain the logical structure of
+            databases. <br>ER diagrams are created based on three basic concepts: entities, attributes and relationships.<br>An entity can be a real-world object, either animate or inanimate, that can be easily identifiable.<br>Entities are represented
+            by means of their properties, called attributes.<br>The association among entities is called a relationship. &emsp;
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
